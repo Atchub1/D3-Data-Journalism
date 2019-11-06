@@ -59,7 +59,6 @@ d3.csv("../../assets/data/data.csv")
       .call(leftAxis);
 
    // Add the text label for the y axis
-
     chartGroup.append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 0 - margin.left)
@@ -87,7 +86,7 @@ d3.csv("../../assets/data/data.csv")
       
 
 
-    // append circles to data points
+    // Append circles to data points
     var circlesGroup = chartGroup.selectAll("circle")
       .data(riskData)
       .enter()
@@ -97,7 +96,7 @@ d3.csv("../../assets/data/data.csv")
       .attr("r", "8")
       .attr("fill", "red");
 
-    // append text to the circles
+    // Append text to the circles
     chartGroup.selectAll('text')
       .data(riskData)
       .enter()
