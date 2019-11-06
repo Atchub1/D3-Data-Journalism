@@ -5,6 +5,7 @@ I created a scatter plot of Obesity vs Age for each State using data from the US
 [2014 ACS 1-year estimates](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml)
 
 <br>
+<hr>
 <br>
 <br>
   
